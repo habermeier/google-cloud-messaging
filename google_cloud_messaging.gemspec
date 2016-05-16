@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Bernt Habermeier"]
   spec.email         = ["bernie@wannago.com"]
   spec.summary       = %q{Use Google Cloud Messaging API, using Typhoeus.  Very simple. }
-  spec.description   = %q{This is a very small wrapper aroudn Typhoeus that manages a call out to GCM.}
+  spec.description   = %q{This is a very small wrapper aroudn Typhoeus that manages a call out to GCM. See: https://github.com/habermeier/google-cloud-messaging for usage.}
   spec.homepage      = "https://github.com/habermeier/google-cloud-messaging"
   spec.license       = "MIT"
 
