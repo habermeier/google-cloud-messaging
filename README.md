@@ -94,6 +94,13 @@ Then the following gcm attributes contain **array of Result objects** each with 
 | **`gcm.errors`** | `id, error` |This array contains all errors as reported by Google |
 | **`gcm.results`** | `id, data` |This array contains all data for each registration id exactly as reported by Google |
 
+## Errors (`gcm.errors`)
+
+See [downstream message error response codes](https://developers.google.com/cloud-messaging/http-server-ref#error-codes)
+for the error strings you'll likeley see.  Here are some of the values you might see:
+`MissingRegistration`, `InvalidRegistration`, `NotRegistered`, `InvalidPackageName`, and other fine
+error codes...
+
 ## Testing
 
 Testing this gem is kinda hard, because we need to generate a server API key and have Android clients that can produce
